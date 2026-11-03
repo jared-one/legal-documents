@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="A memorandum for loved ones, available to read online or as a PDF.">
+  <title>The Honeypot Scheme | Memorandum</title>
+  <style>
+    :root { color-scheme: light; }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #fff;
+      color: #171717;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    a:focus-visible { outline: 3px solid #777; outline-offset: 4px; }
+    .page { width: min(100% - 48px, 980px); margin: 0 auto; }
+    .masthead { border-bottom: 1px solid #d8d8d8; }
+    .masthead-inner {
+      min-height: 76px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .masthead-label, .masthead-meta {
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .masthead-meta { color: #666; font-weight: 500; }
+    main { padding-top: 66px; }
+    .eyebrow {
+      display: block;
+      margin-bottom: 16px;
+      color: #5c5c5c;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font: 500 clamp(36px, 6vw, 62px)/1.12 Georgia, "Times New Roman", serif;
+      letter-spacing: -0.037em;
+    }
+    .subtitle { margin: 16px 0 0; font-size: 18px; color: #383838; }
+    .intro { max-width: 650px; margin: 22px 0 0; color: #515151; }
+    .details {
+      margin-top: 36px;
+      border-top: 1px solid #d8d8d8;
+      border-bottom: 1px solid #d8d8d8;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 50px;
+      padding: 15px 0;
+    }
+    .detail { display: flex; align-items: baseline; gap: 10px; margin: 4px 0; }
+    .detail-name { font-size: 11px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; }
+    .detail-value { font-size: 13px; color: #444; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 58px; }
+    .action {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 20px;
+      min-height: 45px;
+      border: 1px solid #222;
+      text-align: center;
+      text-decoration: none;
+      line-height: 1.3;
+      font-weight: 600;
+      font-size: 13px;
+      transition: background 160ms ease, color 160ms ease;
+    }
+    .action.primary { color: white; background: #111; }
+    .action.primary:hover { background: #373737; }
+    .action.secondary { background: #fff; color: #111; }
+    .action.secondary:hover { background: #f3f3f3; }
+    .viewer-area { border-top: 1px solid #d8d8d8; padding-top: 28px; }
+    .viewer-header { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin: 0 0 18px; }
+    h2 { margin: 0; font: 500 23px/1.3 Georgia, "Times New Roman", serif; }
+    .viewer-meta { margin: 0; font-size: 12px; color: #686868; }
+    .pdf-shell { border: 1px solid #bdbdbd; background: #f5f5f5; }
+    iframe { display: block; width: 100%; height: min(78vh, 960px); min-height: 560px; border: 0; background: #efefef; }
+    .viewer-note { margin: 12px 0 0; color: #666; font-size: 12px; }
+    footer { margin-top: 65px; padding: 24px 0 32px; border-top: 1px solid #dedede; color: #666; font-size: 12px; }
+    footer .page { display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; }
+    @media (max-width: 600px) {
+      .page { width: min(100% - 32px, 980px); }
+      .masthead-inner { min-height: 68px; }
+      .masthead-meta { letter-spacing: 0.05em; }
+      main { padding-top: 43px; }
+      .details { gap: 0 22px; }
+      .actions { margin-bottom: 45px; }
+      .action { flex: 1 1 140px; }
+      iframe { height: 66vh; min-height: 380px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .action { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="page masthead-inner">
+      <span class="masthead-label">Personal memorandum</span>
+      <span class="masthead-meta">For loved ones</span>
+    </div>
+  </header>
+  <main class="page" id="main">
+    <div class="eyebrow">Document access</div>
+    <h1>The Honeypot Scheme</h1>
+    <p class="subtitle">Memorandum for Loved Ones</p>
+    <p class="intro">The memorandum is available below in its original PDF format. You can read it here, open it in a separate tab or save a copy for reference.</p>
+    <div class="details" aria-label="Document details">
+      <div class="detail"><span class="detail-name">Issued</span><span class="detail-value">2 November 2026</span></div>
+      <div class="detail"><span class="detail-name">Format</span><span class="detail-value">PDF · 9 pages</span></div>
+      <div class="detail"><span class="detail-name">Edition</span><span class="detail-value">Revision 16</span></div>
+    </div>
+    <nav class="actions" aria-label="Memorandum actions">
+      <a class="action primary" href="#document">Read memorandum</a>
+      <a class="action secondary" href="./memorandum.pdf" target="_blank" rel="noopener noreferrer" type="application/pdf">Open PDF</a>
+      <a class="action secondary" href="./memorandum.pdf" download="The_Honeypot_Scheme_Memorandum.pdf" type="application/pdf">Download PDF</a>
+    </nav>
+    <section class="viewer-area" id="document" aria-labelledby="viewer-title">
+      <div class="viewer-header">
+        <h2 id="viewer-title">Document viewer</h2>
+        <p class="viewer-meta">Original PDF · 9 pages</p>
+      </div>
+      <div class="pdf-shell">
+        <iframe src="./memorandum.pdf#view=FitH" title="The Honeypot Scheme memorandum PDF" loading="lazy"></iframe>
+      </div>
+      <p class="viewer-note">If the viewer does not appear on your device, use “Open PDF” or “Download PDF” above.</p>
+    </section>
+  </main>
+  <footer>
+    <div class="page">
+      <span>The Honeypot Scheme · Memorandum for Loved Ones</span>
+      <span>Issued 2 November 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
